@@ -42,7 +42,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
-        <roles>x_snc_shirehall_tr.admin</roles>
+        <roles>x_snc_shirehall_tr.admin,x_snc_shirehall_tr.vehicle_admin</roles>
         <sc_catalogs/>
         <sc_ic_item_staging/>
         <sc_ic_version/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-24 03:16:12</sys_created_on>
         <sys_id>f0ec2a204fb82b0062be77618110c7d6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>New Vehicle</sys_name>
         <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
         <sys_policy/>
         <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
         <sys_update_name>sc_cat_item_producer_f0ec2a204fb82b0062be77618110c7d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-24 14:42:09</sys_updated_on>
+        <sys_updated_on>2018-09-28 19:41:13</sys_updated_on>
         <table_name>x_snc_shirehall_tr_vehicles</table_name>
         <template/>
         <type>item</type>

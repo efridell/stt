@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_snc_shirehall_tr.vehicle_admin" name="x_snc_shirehall_tr.vehicle_admin">1e44fa4edbbc23005b03b701ef96195f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-28 19:39:02</sys_created_on>
+        <sys_id>02547a4edbbc23005b03b701ef9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1e44fa4edbbc23005b03b701ef96195f</sys_name>
+        <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
+        <sys_update_name>sys_embedded_help_role_02547a4edbbc23005b03b701ef9619af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-28 19:39:02</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

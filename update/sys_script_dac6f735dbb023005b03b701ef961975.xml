@@ -32,13 +32,18 @@
 	var gr = new GlideRecord('x_snc_shirehall_tr_observations');
 	gr.addQuery('license_plate', current.license_plate);
 	gr.addQuery('observation_date', current.observation_date);
+	gr.addQuery('sys_created_by', current.sys_created_by);
 	gr.query();
 	gr.next();
 	
 	// Add your code here
 	if(gr.license_plate != null){
 		current.setAbortAction(true);
-		gs.addErrorMessage('Already logged for today.');
+		gs.addErrorMessage('Already logged for today. Updating location for existing report if needed.');
+		gr.setValue('location', current.location);
+		gr.update();
+		var url = 'https://efridsc2.service-now.com/stt?id=form&table=x_snc_shirehall_tr_observations&sys_id=' + gr.getValue('sys_id');
+		gs.info('This is your url: ' + url);
 	}
 	
 })(current, previous);]]></script>
@@ -48,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dac6f735dbb023005b03b701ef961975</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Prevent Same Day Duplicate Reports</sys_name>
         <sys_overrides/>
         <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
@@ -56,7 +61,7 @@
         <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
         <sys_update_name>sys_script_dac6f735dbb023005b03b701ef961975</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-28 06:58:15</sys_updated_on>
+        <sys_updated_on>2018-09-28 18:56:31</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
