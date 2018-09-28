@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Observations" max_length="40" name="x_snc_shirehall_tr_observations" type="collection">
+        <element label="Color" max_length="128" name="color" type="string"/>
+        <element label="License Plate" max_length="32" name="license_plate" reference="x_snc_shirehall_tr_vehicles" type="reference"/>
+        <element choice="1" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Street" sequence="10" value="street"/>
+                <element inactive_on_update="false" label="Driveway" sequence="20" value="driveway"/>
+                <element inactive_on_update="false" label="Both (Street &amp; Driveway)" sequence="30" value="both"/>
+            </choice>
+        </element>
+        <element label="Make" max_length="128" name="make" type="string"/>
+        <element label="Model" max_length="128" name="model" type="string"/>
+        <element label="Observation Date" max_length="40" name="observation_date" type="glide_date"/>
+        <element label="Plate Value" max_length="7" name="plate_value" type="string"/>
+        <element label="Reported By" max_length="32" name="reported_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="license_plate"/>
+        </index>
+        <index name="index2">
+            <element name="reported_by"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Disturbances" max_length="40" name="x_snc_shirehall_tr_disturbances" type="collection">
+        <element label="Comments" max_length="10000" name="comments" type="string"/>
+        <element choice="1" label="Event Type" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Noticable Arrival/Departure" sequence="10" value="noticable_arrival_departure"/>
+                <element inactive_on_update="false" label="Party" sequence="20" value="party"/>
+                <element inactive_on_update="false" label="Other" sequence="30" value="other"/>
+            </choice>
+        </element>
+        <element label="Reported By" max_length="32" name="reported_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="reported_by"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">571d76e44ff82b0062be77618110c72e</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-28 05:21:47</sys_created_on>
+        <sys_id>f420b3f9db7023005b03b701ef96199d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Your Sightings Over Time</sys_name>
+        <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
+        <sys_update_name>sp_instance_f420b3f9db7023005b03b701ef96199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-28 15:31:26</sys_updated_on>
+        <title>Your Sightings Over Time</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"report_id": {
+		"value": "8bb03b3ddb7023005b03b701ef961973",
+		"displayValue": "Your Sightings - Last 7 Days"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=f420b3f9db7023005b03b701ef96199d"/>
+</record_update>

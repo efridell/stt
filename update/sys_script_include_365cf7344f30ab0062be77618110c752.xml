@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_shirehall_tr.VehicleParser</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>VehicleParser</name>
+        <script><![CDATA[var VehicleParser = Class.create();
+VehicleParser.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getVehicleInfo: function(){
+		
+		var returnValue = '';
+		var vehicleID = this.getParameter('sysparm_license_plate');
+		var vehicleDetail = this.getParameter('sysparm_detail');
+		var ciRecord = new GlideRecord('x_snc_shirehall_tr_vehicles');
+		
+		ciRecord.get(vehicleID);
+		
+		if(vehicleDetail == 'make') {
+			returnValue = ciRecord.getValue('make');
+		}
+		if(vehicleDetail == 'model') {
+			returnValue = ciRecord.getValue('model');
+		}
+		if(vehicleDetail == 'color') {
+			returnValue = ciRecord.getValue('color');
+		}
+		if(vehicleDetail == 'plate') {
+			returnValue = ciRecord.getValue('license_plate');
+		}
+		
+		return returnValue;
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-25 03:41:46</sys_created_on>
+        <sys_id>365cf7344f30ab0062be77618110c752</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>VehicleParser</sys_name>
+        <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
+        <sys_update_name>sys_script_include_365cf7344f30ab0062be77618110c752</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-28 04:47:22</sys_updated_on>
+    </sys_script_include>
+</record_update>

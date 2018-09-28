@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Vehicles" max_length="40" name="x_snc_shirehall_tr_vehicles" type="collection">
+        <element label="Color" max_length="128" name="color" type="string"/>
+        <element label="Date Last Seen" max_length="40" name="date_last_seen" type="glide_date"/>
+        <element display="true" label="License Plate" mandatory="true" max_length="7" name="license_plate" type="string"/>
+        <element label="Make" max_length="128" name="make" type="string"/>
+        <element label="Model" max_length="128" name="model" type="string"/>
+        <element label="Notes" max_length="10000" name="notes" type="string"/>
+        <element label="Reviewed" max_length="40" name="reviewed" type="boolean"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

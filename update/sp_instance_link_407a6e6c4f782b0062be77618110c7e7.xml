@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>danger</color>
+        <css/>
+        <glyph>binoculars</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="New Sighting">3080136c4f3c2b0062be77618110c7a6</sc_cat_item>
+        <sc_category/>
+        <short_description>Click here to log a vehicle sighting</short_description>
+        <size>md</size>
+        <sp_column display_value="1">2e39aa2c4f782b0062be77618110c7aa</sp_column>
+        <sp_page display_value="stt_catalog_item">eb2b76244ff82b0062be77618110c7ed</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-24 03:04:52</sys_created_on>
+        <sys_id>407a6e6c4f782b0062be77618110c7e7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Log a Sighting</sys_name>
+        <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
+        <sys_update_name>sp_instance_link_407a6e6c4f782b0062be77618110c7e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-28 04:28:52</sys_updated_on>
+        <title>Log a Sighting</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=407a6e6c4f782b0062be77618110c7e7"/>
+</record_update>
