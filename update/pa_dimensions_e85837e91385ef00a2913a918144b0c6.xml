@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <empty_value/>
+        <facts_table>x_snc_shirehall_tr_vehicles</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown/>
+        <name>Observations License Plate(license_plate)</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-09 21:34:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e85837e91385ef00a2913a918144b0c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Observations License Plate(license_plate)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
+        <sys_update_name>pa_dimensions_e85837e91385ef00a2913a918144b0c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-09 21:34:45</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=e85837e91385ef00a2913a918144b0c6"/>
+</record_update>

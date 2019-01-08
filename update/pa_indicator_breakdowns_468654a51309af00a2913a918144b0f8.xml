@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="Reported By">4686d0a51309af00a2913a918144b0d0</breakdown>
+        <display>true</display>
+        <indicator display_value="Shirehall Observations Indicator">08eaa6f713fce700a2913a918144b0ce</indicator>
+        <order>100</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-09 05:08:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>468654a51309af00a2913a918144b0f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Reported By.Shirehall Observations Indicator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_468654a51309af00a2913a918144b0f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-09 05:09:14</sys_updated_on>
+    </pa_indicator_breakdowns>
+</record_update>

@@ -2,11 +2,11 @@
     <element label="Observations" max_length="40" name="x_snc_shirehall_tr_observations" type="collection">
         <element label="Color" max_length="128" name="color" type="string"/>
         <element label="License Plate" max_length="32" name="license_plate" reference="x_snc_shirehall_tr_vehicles" type="reference"/>
-        <element choice="1" label="Location" max_length="40" name="location" type="choice">
+        <element choice="1" label="Location" max_length="32" name="location" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Street" sequence="10" value="street"/>
-                <element inactive_on_update="false" label="Driveway" sequence="20" value="driveway"/>
-                <element inactive_on_update="false" label="Both (Street &amp; Driveway)" sequence="30" value="both"/>
+                <element inactive_on_update="false" label="Driveway" sequence="10" value="driveway"/>
+                <element inactive_on_update="false" label="Street" sequence="20" value="street"/>
+                <element inactive_on_update="false" label="Both (Driveway &amp; Street)" sequence="30" value="both_driveway_and_street"/>
             </choice>
         </element>
         <element label="Make" max_length="128" name="make" type="string"/>
@@ -19,6 +19,9 @@
         </index>
         <index name="index2">
             <element name="reported_by"/>
+        </index>
+        <index name="index3">
+            <element name="location"/>
         </index>
     </element>
 </database>

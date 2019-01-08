@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
         <css_variables/>
-        <default>false</default>
+        <default>true</default>
         <homepage display_value="stt_home">4729e62c4f782b0062be77618110c787</homepage>
         <icon/>
         <kb_knowledge_base/>
@@ -20,14 +20,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-24 02:56:27</sys_created_on>
         <sys_id>d468a6e84f782b0062be77618110c7c3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Shirehall Traffic Tracker</sys_name>
         <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
         <sys_policy/>
         <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
         <sys_update_name>sp_portal_d468a6e84f782b0062be77618110c7c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-24 05:46:25</sys_updated_on>
+        <sys_updated_on>2018-10-05 15:07:00</sys_updated_on>
         <theme display_value="STT Theme">283ec3a84f3c2b0062be77618110c7da</theme>
         <title>Shirehall Traffic Tracker</title>
         <u_available_in_portal_picker>true</u_available_in_portal_picker>

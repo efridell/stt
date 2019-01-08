@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Shirehall Traffic Overview">60baf9cedbb823005b03b701ef961929</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>x_snc_shirehall_tr.user</identity>
+        <read>true</read>
+        <role display_value="x_snc_shirehall_tr.user" name="x_snc_shirehall_tr.user">a370e6204f782b0062be77618110c7b0</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 05:49:18</sys_created_on>
+        <sys_id>52ff6abf13fce700a2913a918144b0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_shirehall_tr.user</sys_name>
+        <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_52ff6abf13fce700a2913a918144b0d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 05:49:18</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

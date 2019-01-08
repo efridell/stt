@@ -4,19 +4,19 @@
         <height>10</height>
         <portal_widget display_value="Created 2018-09-28 10:39:34">0009968edb3c23005b03b701ef961999</portal_widget>
         <posx>0</posx>
-        <posy>10</posy>
+        <posy>20</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-28 17:39:34</sys_created_on>
         <sys_id>4009968edb3c23005b03b701ef96199c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>26baf9cedbb823005b03b701ef96198e</sys_name>
         <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
         <sys_policy/>
         <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_4009968edb3c23005b03b701ef96199c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-28 17:42:39</sys_updated_on>
+        <sys_updated_on>2018-10-03 04:14:59</sys_updated_on>
         <width>12</width>
     </sys_grid_canvas_pane>
 </record_update>

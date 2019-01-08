@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Parking Locations" max_length="40" name="x_snc_shirehall_tr_parking_locations" type="collection">
+        <element label="Location" max_length="128" name="location" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+    </element>
+</database>

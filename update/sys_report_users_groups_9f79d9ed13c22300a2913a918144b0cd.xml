@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="Shirehall Watchers" name="Shirehall Watchers">394fb44c13492b00a2913a918144b0ee</group_id>
+        <report_id display_value="Sightings Over Time">f0f8968edb3c23005b03b701ef961908</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-28 03:03:36</sys_created_on>
+        <sys_id>9f79d9ed13c22300a2913a918144b0cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f0f8968edb3c23005b03b701ef961908</sys_name>
+        <sys_package display_value="Shirehall Traffic Tracker" source="x_snc_shirehall_tr">2f702aec4f382b0062be77618110c776</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shirehall Traffic Tracker">2f702aec4f382b0062be77618110c776</sys_scope>
+        <sys_update_name>sys_report_users_groups_9f79d9ed13c22300a2913a918144b0cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 03:03:36</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>
